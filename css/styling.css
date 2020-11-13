@@ -1,0 +1,67 @@
+h1{
+    float: left;
+    margin-left: 30%;
+    padding: 10px;
+}
+#searchBox{
+    background-color: greenyellow;
+    padding: 20px;
+    position: absolute;
+    left: 55%;
+}
+#header{
+    display: flex;
+}
+#brand{
+    color: blueviolet;
+    left: 600px;   
+}
+#menu li{
+    display: inline;
+    padding: 45px;
+    background-color: greenyellow;
+}
+#menu{
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: 20px;
+    margin: 40px;
+}
+#introduction{
+    margin-left: 30%;
+    color: green;
+    margin-right: 32%;
+    background-color: greenyellow;
+    width: auto;
+    overflow: hidden;
+    padding: 20px;
+    margin: 40px;
+}
+#leftsidebar{
+    float: left;
+    margin-left: 30%;
+}
+#rightsidebar{
+    float: right;
+    margin-right: 32%;
+}
+.footer{
+    margin-top: 30%;
+    text-align: center;
+    background-color: greenyellow;
+    padding: 20px;
+    margin: 450px;
+}
+#rightsidebar ul{
+    list-style: none;
+}
+#rightsidebar li::before{
+    content: url(../images/tick.png);
+}
+#leftsidebar ul{
+    list-style: none;
+}
+#leftsidebar li::before{
+    content: url(../images/arrow.png);
+}
