@@ -5,7 +5,7 @@
 #brand{
     color: blueviolet;
     position: absolute;
-    left: 600px;
+    left: 260px;
     
 }
 
@@ -14,7 +14,8 @@
     background-color: greenyellow;
     padding: 20px;
     position: absolute;
-    left: 55%;
+    left: 67.5%;
+    background: linear-gradient(to bottom, white, yellow)
 }
 
 #header{
@@ -29,6 +30,7 @@
     width: 70%;
     left: 250px;
     top: 90px;
+    background: linear-gradient(to bottom, white, yellow)
 }   
 
 #menu li{
@@ -49,6 +51,7 @@ a {
     width: 70%;
     left: 250px;
     padding: 15px;
+    background: linear-gradient(to bottom, white, lightgreen)
 }
 
 #introduction h3{
@@ -62,7 +65,7 @@ a {
 #leftsidebar{
     position: absolute;
     top: 50%;
-    left: 400px;
+    left: 250px;
     border: 2px lightgreen solid;
     border-radius: 10px;
 }
@@ -70,7 +73,7 @@ a {
 #rightsidebar{
     position: absolute;
     top: 50%;
-    left: 1200px;
+    left: 1315px;
     border: 2px lightgreen solid;
     border-radius: 10px;
 }
@@ -85,6 +88,7 @@ footer{
     text-align: center;
     color: blueviolet;
     font-size: 25px;
+    background: linear-gradient(to bottom, white, yellow)
 }
 #rightsidebar ul{
     list-style: none;
