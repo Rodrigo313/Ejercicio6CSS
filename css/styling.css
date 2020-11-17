@@ -8,7 +8,11 @@
     left: 260px;
     
 }
-
+input[type="text"]{
+    background-image: url(images/search.png) ;
+    background-repeat: no-repeat;
+    background-position: right;   
+}
 
 #searchBox{
     background-color: greenyellow;
@@ -39,7 +43,14 @@
     font-size: 20px;
     color: blueviolet;
 }
-
+#menu ul li a{
+    transition: font-size 1s  ease;
+}
+#menu ul li a:hover{
+    font-size: 25px;
+    color:red;
+    font: bold;
+}
 a {
     text-decoration: none;
 }
@@ -68,6 +79,7 @@ a {
     left: 250px;
     border: 2px lightgreen solid;
     border-radius: 10px;
+    padding-right: 10%;
 }
 
 #rightsidebar{
@@ -96,9 +108,26 @@ footer{
 #rightsidebar li::before{
     content: url(../images/tick.png);
 }
+#rightsidebar ul li a{
+    transition: font-size 1s  ease;
+}
+#rightsidebar ul li a:hover{
+    font-size: 25px;
+    color:red;
+    font: bold;
+}
+
 #leftsidebar ul{
     list-style: none;
 }
 #leftsidebar li::before{
     content: url(../images/arrow.png);
+}
+#leftsidebar ul li a{
+    transition: font-size 1s  ease;
+}
+#leftsidebar ul li a:hover{
+    font-size: 25px;
+    color:red;
+    font: bold;
 }
